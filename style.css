@@ -1,0 +1,76 @@
+body {
+text-align:center;
+
+}
+ h1{
+
+ 
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+ }
+ h2,h3,h4,h5,h6,label {
+
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding-left: 120px !important;
+  padding-right: 120px !important;
+
+ }
+ img{
+    width: 200px;
+    height: 200px;
+    border:  10px groove black;
+    padding:20px;
+ }
+
+ #logo {
+   width: 40px;
+   height: 40px;
+   border: 0px;
+ }
+ #main_div {
+   display:flex;
+  
+   
+ }
+  body {
+  background: linear-gradient(#cdb4db , #ffc8dd)
+ }
+ hr {
+  width:50%;
+  border:2px dotted black ;
+ }
+ .menu {
+  position: fixed;
+  background: honeydew !important;
+  width: 100%;
+  margin-top: 0px;
+  top: 10px;
+  z-index: 10;
+ }
+ .links{
+  display:inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family:fantasy ;
+  font-size: 20px;
+  color: darkorchid;
+ }
+ a{
+  text-decoration: none;
+ }
+ .links:hover {
+font-size: 25px;
+text-decoration: overline underline;
+ }
+ a:visited {
+  color: darkslateblue;
+ }
+ #basic_info {
+  margin-top: 100px;
+ }
